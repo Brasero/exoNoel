@@ -30,5 +30,79 @@
      Affichez la variable avec echo en utilisant la fonction strtoupper pour mettre le nom de l'animal en majuscules.
 -->
 
+
+<h1>Les variables en PHP</h1>
+
+<h2>Exercice 1</h2>
+
+<?php
+$nom = "Ricci";
+echo $nom;
+?>
+
+<h2>Exercice 2</h2>
+
+<?php
+$age = 27;
+echo $age;
+?>
+
+<h2>Exercice 3</h2>
+
+<?php
+$estEtudiant = "false";
+echo $estEtudiant;
+?>
+
+<h2>Exercice 4</h2>
+
+<?php
+$taille = 1.80;
+echo $taille;
+?>
+
+<h2>Exercice 5</h2>
+
+<?php
+$prix = 50;
+echo number_format($prix, 2, '.', ', ');
+?>
+
+<h2>Exercice 6</h2>
+
+<?php
+$phrase = "Ceci est une phrase";
+echo strlen($phrase);
+?>
+
+<h2>Exercice 7</h2>
+
+<?php
+$texte = "Ceci est un texte";
+echo substr($texte, 0, 1);
+?>
+
+<h2>Exercice 8</h2>
+
+<?php
+$nombre = 5;
+echo $nombre ** 2;
+?>
+
+<h2>Exercice 9</h2>
+
+<?php
+$nombre1 = 5;
+$nombre2 = 10;
+echo $nombre1 + $nombre2;
+?>
+
+<h2>Exercice 10</h2>
+
+<?php
+$animal = "chien";
+echo strtoupper($animal);
+?>
+
 </body>
 </html>
